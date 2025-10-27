@@ -6,4 +6,4 @@ console.log('A variável nome é do tipo: ');
 console.log(typeof nome);
 
 // Para rodar o código, use o comando:
-// npx tsx src/examplo-saida.ts
+// node src/exemplo-saida.js

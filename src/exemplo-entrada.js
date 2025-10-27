@@ -8,7 +8,7 @@ let nome = readlineSync.question('Como se chama? ');
 console.log('Oi ' + nome + '!');
 
 // Para rodar o código, use o comando:
-// npx tsx src/exemplo-entrada.ts
+// node src/exemplo-entrada.js
 
 // Dica: digite "clear" no terminal para limpar a tela
 // ou use o atalho Ctrl + L

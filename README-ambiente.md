@@ -1,6 +1,6 @@
-# 🌟 Ambiente produtivo para desenvolvimento TypeScript | Node.js
+# 🌟 Ambiente produtivo para desenvolvimento JavaScript | Node.js
 
-Este conteúdo foca no ambiente de desenvolvimento — terminal e configurações do VS Code — para projetos em TypeScript, fundamentado nos seguintes pilares:
+Este conteúdo foca no ambiente de desenvolvimento — terminal e configurações do VS Code — para projetos em JavaScript, fundamentado nos seguintes pilares:
 
 -   Ambiente estruturado
 -   Terminal bem configurado
@@ -25,20 +25,15 @@ O código do projeto fica na pasta `src` e o arquivo principal é o `src/main.ts
 Para executar o projeto, rode:
 
 ```bash
-npm run build
+npm run start
 ```
 
-Ou execute diretamente com o tsx:
+Ou execute diretamente com o node:
 
 ```bash
-npx tsx src/main.ts
+node src/main.ts
 ```
 
-O script npm run build (definido em `package.json`) compila o TypeScript sem emitir arquivos JavaScript. Se quiser ver o .js gerado, use:
-
-```bash
-npx tsc src/main.ts
-```
 
 # 📋 Conceitos
 
@@ -52,17 +47,6 @@ Algumas referências importantes sobre JavaScript:
 -   [W3Schools - JavaScript](https://www.w3schools.com/js/)
 -   [Importação de Módulos](https://www.alura.com.br/artigos/guia-importacao-exportacao-modulos-javascript)
 
-## TypeScript
-
-TypeScript é um superset de JavaScript com tipagem estática opcional, que amplia o editor com detecção de erros e autocompletar mais precisos.
-
-Algumas referências importantes sobre TypeScript:
-
--   [Documentação oficial do TypeScript](https://www.typescriptlang.org/docs/)
--   [MDN Web Docs - TypeScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Using_type_annotations)
--   [Alura - O que é TypeScript?](https://www.alura.com.br/artigos/o-que-e-typescript)
--   [Playground do TypeScript](https://www.typescriptlang.org/play)
--   [Diferenças entre JavaScript e TypeScript](https://www.alura.com.br/artigos/diferencas-entre-javascript-e-typescript)
 
 ## ⚙️ Node.js
 
@@ -98,7 +82,7 @@ Cria o package.json, que organiza as dependências e scripts do projeto.
 
 ## 📦 NPM (Node Package Manager)
 
-O **NPM** é o gerenciador de pacotes oficial do Node.js. Ele permite instalar bibliotecas, frameworks e ferramentas de forma simples, além de gerenciar scripts e dependências de um projeto JavaScript ou TypeScript.
+O **NPM** é o gerenciador de pacotes oficial do Node.js. Ele permite instalar bibliotecas, frameworks e ferramentas de forma simples, além de gerenciar scripts e dependências de um projeto JavaScript ou JavaScript.
 
 ### 🧰 Comandos essenciais
 
@@ -146,7 +130,7 @@ Dev Containers são ambientes de desenvolvimento prontos e reprodutíveis config
 **Benefícios:**
 
 -   Reduz problemas de "na minha máquina funciona".
--   Permite configuração padronizada do ambiente com Node, TypeScript, linters, etc.
+-   Permite configuração padronizada do ambiente com Node, JavaScript, linters, etc.
 -   Integração nativa com o VS Code e GitHub CodeSpaces.
 
 As features aplicadas neste repositório no DevContainer são:
@@ -182,7 +166,7 @@ Um **objeto** é uma estrutura de dados composta por pares `chave: valor`, delim
 Um array é uma lista ordenada de valores, delimitada por [ ]. Os elementos podem ser de tipos diferentes, inclusive outros objetos ou arrays. Veja o exemplo abaixo:
 
 ```json
-["JavaScript", "TypeScript", "Python"]
+["JavaScript", "JavaScript", "Python"]
 ```
 
 Um exemplo com uma lista de objetos:
@@ -253,4 +237,4 @@ O Prettier é um formatador de código automático. Ele garante consistência no
 
 ## 🧪 ESLint
 
-O ESLint é uma ferramenta de linting para JavaScript e TypeScript. Ele analisa o código em busca de erros, problemas de estilo e padrões de codificação. O ESLint pode ser configurado com regras personalizadas ou usar configurações padrão.
+O ESLint é uma ferramenta de linting para JavaScript e JavaScript. Ele analisa o código em busca de erros, problemas de estilo e padrões de codificação. O ESLint pode ser configurado com regras personalizadas ou usar configurações padrão.
